@@ -1,0 +1,14 @@
+def cheese_and_crackers(cheese_count, boxes_of_crackers):
+    print "cheese_count in function: %d" % cheese_count
+    print "You have %d cheeses!" % cheese_count
+    print "You have %d boxes of crackers!" % boxes_of_crackers
+    print "Man that's enough for a party!"
+    print "Get a blanket.\n"
+
+print "and now we use raw_input:"
+prompt = '> '
+print "amount_of_cheese is:"
+amount_of_cheese = int(raw_input(prompt))
+print "amount_of_cheese is:"
+amount_of_crackers = int(raw_input(prompt))
+cheese_and_crackers(amount_of_cheese, amount_of_crackers)
