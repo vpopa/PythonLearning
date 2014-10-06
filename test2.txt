@@ -1,3 +1,0 @@
-a line 1
-b line 2
-c line 3

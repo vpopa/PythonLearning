@@ -10,8 +10,8 @@ bag,hello,without,world
 prompt = '> '
 given_words = ''
 words_sorted = ''
-#split_words = ''
-#words = ''
+split_words = ''
+words = ''
 
 def getInput():
     print "Write some words separated by comma"
